@@ -10,7 +10,7 @@ This problem is one of the oldest in the books: "How do I make more money?" Ther
 Time series data from the last 10 years of JPY <--> USD was downloaded from the Federal Reserve Bank of St. Louis (https://fred.stlousfed.org/series/DEXJPUS).
 Source: Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/DEXJPUS).
 
-<img src="yen_usd_plot.png" style="width: 600px;"/>
+<img src="images/yen_usd_plot.png" style="width: 600px;"/>
 
 ## Libraries
 ### General
@@ -24,6 +24,6 @@ Source: Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/DE
 
 ## Results
 
-<img src="yen_usd_forecast.png" style="width: 600px;"/>
+<img src="images/yen_usd_forecast.png" style="width: 600px;"/>
 
 The model was unable to forecast the results reliably. It predicted a large range of values that only increased as time went on. The forecast "curve" was a straight line that did not resemble the shape of the average currency exchange plot.
