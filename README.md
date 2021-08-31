@@ -1,29 +1,40 @@
 # Japanese Yen (JPY) to Dollar (USD) Exchange Rate Forecast
 
-## Summary
-The Japanese yen is the third most exchanged currency in the international foreign exchange market, only behind the US dollar and the Euro (EUR). After the coronavirus pandemic forced many companies to allow teleworking, many people considered relocating and moving. These people, including myself, were trying to make the best out of a bad situation. I have always wanted to live in Japan so in order to maximize my funds prior to moving, I created a model to predict the future exchange rates of the yen and dollar.
+![jpy banner](https://user-images.githubusercontent.com/65571381/131437911-dc109f01-6aaf-4f45-9d9f-c03f2bda395d.png)
 
-## Problem Statement
-This problem is one of the oldest in the books: "How do I make more money?" There are always businesspeople, investors, and your everday average people who are looking to read the market, whether that be the stock or foreign exchange market. Being able to accurately predict the direction a stock or currency will move can give investors an edge over others. Using the last 10 years of exchange rate data, I trained a model to answer the question, __When should I exchange USD for yen?__
+![GitHub repo size](https://img.shields.io/github/repo-size/scottokamura/jpy_usd_forecast)
+![last commit date](https://img.shields.io/github/last-commit/scottokamura/jpy_usd_forecast)
+![forks](https://img.shields.io/github/forks/scottokamura/jpy_usd_forecast?style=social)
+![stars](https://img.shields.io/github/stars/scottokamura/jpy_usd_forecast?style=social)
 
-## Data Sources
-Time series data from the last 10 years of JPY <--> USD was downloaded from the Federal Reserve Bank of St. Louis (https://fred.stlousfed.org/series/DEXJPUS).
-Source: Federal Reserve Bank of St. Louis (https://fred.stlouisfed.org/series/DEXJPUS).
+This repo contains a time series analysis of the yen to US dollar exchange rate for __foreign exchange traders__, __investors__, and other stakeholders to assist in deciding when to make a move on the exchange. This model can also be used by __casual investors__ or even __tourists__ who are looking to travel in the near future and want to get the best "bang for their buck".
 
-<img src="images/yen_usd_plot.png" style="width: 600px;"/>
+## Prerequisites
+Before you continue, ensure you have met the following requirements:
+* Python 3.0+
+ 
+### Installing Python 3.0+
+  1. Visit [python.org](https://www.python.org/downloads/)
+  2. Choose your operating system
+  3. Follow the download link and setup wizard instructions
 
-## Libraries
-### General
-1. Pandas
-2. Numpy
-3. Matplotlib
+## How to Use Repository
+1. Fork and clone this repository
+2. Open 'King County Housing Analysis.ipynb' and run all cells
 
-### Statistical
-1. Statsmodels
-2. Scikit-learn
+## Methods and Technologies Used
+- Pandas, numpy
+- matplotlib
+- statsmodels
+- sklearn
 
-## Results
+## Data Source
+* [Federal Reserve Bank of St. Louis](https://fred.stlouisfed.org/series/DEXJPUS).
 
-<img src="images/yen_usd_forecast.png" style="width: 600px;"/>
+## Contact
+If you want to contact me, you can reach me at scott.okamura@gmail.com.
 
-The model was unable to forecast the results reliably. It predicted a large range of values that only increased as time went on. The forecast "curve" was a straight line that did not resemble the shape of the average currency exchange plot.
+### Additional Contents
+1. [JPY to USD Forecast Presentation](https://github.com/scottokamura/jpy_usd_forecast/blob/master/presentation.pdf)
+2. [Blog: Forecasting the Yen to Dollar Exchange Rate Part 1](https://scottokamura.medium.com/forecasting-the-yen-to-dollar-exchange-rate-bf18c04986a0)
+3. [Blog: Forecasting the Yen to Dollar Exchange Rate Part 2](https://scottokamura.medium.com/forecasting-the-yen-to-dollar-exchange-rate-f1d407b3347e)
